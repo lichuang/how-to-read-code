@@ -2,7 +2,7 @@
 
 Source: codedump "How to Read Code" (English version, 2021-02-15; original Chinese essay《如何阅读一份源代码？（2020年版）》published 2020-06-05)
 - Blog (en, canonical for this skill): https://www.codedump.info/en/post/20200605-how-to-read-code/
-- Blog (zh, original): https://www.codedump.info/post/20200605-how-to-read-code/
+- Blog (zh, original): https://www.codedump.info/zh/post/20200605-how-to-read-code/
 - Blog (zh, 2019, earlier version): https://www.codedump.info/post/20190324-how-to-read-code/
 
 This file records, per article point, WHY the workflow step exists, the original's key examples, and what was changed when converting from human-learner advice to agent-executable workflow. Consult when you need to justify a step, or when deciding whether a step can be skipped.

@@ -5,7 +5,7 @@
 
 An [Agent Skill](https://agentskills.io) that turns your coding agent into a disciplined code reader.
 
-Most agents answer "how does this project work?" by statically listing files and guessing at the architecture. This skill imposes a proven reading methodology — distilled from codedump's essay [*How to Read Code* (2021)](https://www.codedump.info/en/post/20200605-how-to-read-code/) ([Chinese original, 2020](https://www.codedump.info/post/20200605-how-to-read-code/)) and refined across years of source-analysis blogging (Nginx, Lua, LevelDB, etcd) — so the agent works like a senior engineer reading unfamiliar code:
+Most agents answer "how does this project work?" by statically listing files and guessing at the architecture. This skill imposes a proven reading methodology — distilled from codedump's essay [*How to Read Code* (2021)](https://www.codedump.info/en/post/20200605-how-to-read-code/) ([Chinese original, 2020](https://www.codedump.info/zh/post/20200605-how-to-read-code/)) and refined across years of source-analysis blogging (Nginx, Lua, LevelDB, etcd) — so the agent works like a senior engineer reading unfamiliar code:
 
 - **Run it first** — get the project compiling and executing before deep reading; minimize debug noise (single-process, `-O0 -g`).
 - **Clarify the purpose** — one focused question before reading; scope everything against it.
@@ -69,7 +69,7 @@ you:    (follow-up questions — the report persists, context survives across se
 
 ## Background
 
-The methodology comes from codedump's essay [*How to Read Code*](https://www.codedump.info/en/post/20200605-how-to-read-code/) (2021, [Chinese original 2020](https://www.codedump.info/post/20200605-how-to-read-code/)), itself applied in the author's books and many source-analysis articles, including *Lua Design and Implementation*. The skill converts that human-learner methodology into agent-executable phases — the conversion decisions are documented in [`references/method-notes.md`](references/method-notes.md).
+The methodology comes from codedump's essay [*How to Read Code*](https://www.codedump.info/en/post/20200605-how-to-read-code/) (2021, [Chinese original 2020](https://www.codedump.info/zh/post/20200605-how-to-read-code/)), itself applied in the author's books and many source-analysis articles, including *Lua Design and Implementation*. The skill converts that human-learner methodology into agent-executable phases — the conversion decisions are documented in [`references/method-notes.md`](references/method-notes.md).
 
 ## License
 
