@@ -24,6 +24,13 @@
 
 模板见 [`templates/report-template.md`](templates/report-template.md)；从原文到 agent 工作流的转化判据见 [`references/method-notes.md`](references/method-notes.md)。
 
+## 实战样例
+
+[`examples/`](examples/) 目录收录了一份用本 skill 真实产出的报告——分析 Redis（[redis/redis](https://github.com/redis/redis) @ `1f245638`）如何把一条客户端命令从 TCP 字节流处理到写回 socket。`make noopt` 真机编译运行、lldb 实抓调用栈（是 ground truth 而非静态推断）、全部 `file:line` 引用经人工比对锁定 commit 核验。中英双版本齐备，并附触发用的确切提示词：
+
+- 中文：[`examples/redis-client-request.zh.md`](examples/redis-client-request.zh.md)
+- English: [`examples/redis-client-request.en.md`](examples/redis-client-request.en.md)
+
 ## 安装
 
 ```bash
