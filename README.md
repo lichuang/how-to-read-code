@@ -1,5 +1,7 @@
 # how-to-read-code
 
+English | [简体中文](README.zh-CN.md)
+
 [![skills.sh](https://skills.sh/b/lichuang/how-to-read-code)](https://skills.sh/lichuang/how-to-read-code)
 ![License](https://img.shields.io/badge/license-Apache--2.0-blue)
 
@@ -41,20 +43,20 @@ Works with [75+ agents](https://github.com/vercel-labs/skills#supported-agents) 
 
 Once installed, just ask naturally — the agent loads the skill when a request matches:
 
-- *"帮我读一下这个项目"*
 - *"Analyze how etcd's MVCC storage works"*
+- *"Help me read through this project"*
 - *"Investigate this repo — how does the scheduler schedule tasks?"*
 
 Or invoke it explicitly to guarantee the full workflow:
 
-- *"用 how-to-read-code 的方式分析 LevelDB 的 compaction"*
+- *"Analyze LevelDB's compaction using the how-to-read-code workflow"*
 
 **Tip**: state your purpose up front ("I only care about the read path", "no need to build it, static analysis is fine") — the skill's first move is to pin down scope, so saying it yourself saves a round trip.
 
 ## Example session
 
 ```
-you:    用 how-to-read-code 的方式分析 etcd 的 storage 实现
+you:    Analyze etcd's storage implementation using the how-to-read-code workflow
 agent:  [loads skill]
         Phase 2  asks one focused question: read/write path, or overall storage architecture?
         Phase 1  builds the project, runs it, switches to a debug-friendly config
