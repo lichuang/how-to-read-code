@@ -24,6 +24,13 @@ The skill's final artifact is a structured **code reading report** — scope, ar
 
 A template ships in [`templates/report-template.md`](templates/report-template.md); the article-to-workflow conversion rationale lives in [`references/method-notes.md`](references/method-notes.md).
 
+## Worked example
+
+See [`examples/`](examples/) for a real report produced with this skill — an analysis of how Redis ([redis/redis](https://github.com/redis/redis) @ `1f245638`) processes a client request command from TCP bytes to reply socket. The server was actually built and run, call stacks were captured with lldb (ground truth, not static inference), and every `file:line` reference was manually verified against the pinned commit. Both Chinese and English versions are included, along with the exact prompt that triggered it:
+
+- Chinese: [`examples/redis-client-request.zh.md`](examples/redis-client-request.zh.md)
+- English: [`examples/redis-client-request.en.md`](examples/redis-client-request.en.md)
+
 ## Install
 
 ```bash
